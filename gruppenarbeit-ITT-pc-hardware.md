@@ -19,13 +19,14 @@
 
 4. **Klassifikation nach Kosten**  
    Bei den Kosten fällt auf, dass Intel im High-End-Bereich eher teurer ist, während im Einstiegssegment (z.B. Core i3) ein gutes Preis-Leistungs-Verhältnis geboten wird. AMD würde ich für Mittel- und High-End-Systeme bevorzugen, da die Ryzen-CPUs hier oft günstiger sind. ARM-Prozessoren würde ich für mobile Geräte in Betracht ziehen, da sie meist günstiger und energieeffizienter sind.
+   ![Multicore](https://github.com/encore99/fae1/blob/main/class.png)
 
    **Stichpunkte:**  
    o Intel: Teurer im High-End-Bereich, aber wettbewerbsfähiger im Einsteigerbereich (Core i3).  
    o AMD: Günstiger in der Mittel- und High-End-Klasse, besonders mit den Ryzen-CPUs.  
    o ARM: Meist günstiger und energieeffizient, insbesondere für mobile Geräte.
 
-5. **Intel-Prozessoren für Apple-PCs**  
+6. **Intel-Prozessoren für Apple-PCs**  
    Apple nutzte bis 2020 Intel-Prozessoren in ihren Macs, bevor sie auf eigene ARM-basierte Chips umstellten. Diese Chips, wie der M1 und M2, bieten eine hohe Leistung bei niedrigem Stromverbrauch. Ich würde sie in MacBooks, dem Mac Mini und iMacs einsetzen.
 
    **Stichpunkte:**  
@@ -33,8 +34,9 @@
    o Seitdem hat Apple auf eigene ARM-basierte Chips (M1, M2) umgestellt, die auf hoher Leistung bei niedrigerem Stromverbrauch optimiert sind.  
    o Aktueller Einsatzbereich: MacBook, Mac Mini, iMac.
 
-6. **Prozessoren, die Windows 11 unterstützt**  
+7. **Prozessoren, die Windows 11 unterstützt**  
    Windows 11 unterstützt nur CPUs ab der 8. Generation von Intel oder ab der AMD Ryzen 2000-Serie. ARM-basierte Prozessoren, die die erforderlichen Performance- und Sicherheitsstandards erfüllen, werden ebenfalls unterstützt. Ich würde bei einer Neuinstallation oder Hardware-Aktualisierung sicherstellen, dass die Prozessoren diese Anforderungen erfüllen.
+   ![Multicore](https://github.com/encore99/fae1/blob/main/tpm.png)
 
    **Stichpunkte:**  
    o Windows 11 unterstützt nur CPUs der neuesten Generationen:  
@@ -42,7 +44,7 @@
    o AMD Ryzen 2000-Serie und neuer.  
    o ARM-basierte Prozessoren, die eine bestimmte Performance und Sicherheitsanforderungen erfüllen.
 
-7. **Einfluss des integrierten Cache (L1, L2, L3)**  
+9. **Einfluss des integrierten Cache (L1, L2, L3)**  
    Der Cache ist entscheidend für die CPU-Leistung. Ich würde auf einen gut ausgestatteten L1-Cache setzen, der der schnellste, aber kleinste ist und direkt am Prozessor liegt. L2- und L3-Cache sind zwar größer, aber langsamer und dienen als Zwischenspeicher. Diese Caches würde ich zur Optimierung von Zugriffszeiten auf häufig benötigte Daten verwenden.
 
    **Stichpunkte:**  
@@ -51,7 +53,7 @@
    o L3-Cache: Größter Cache, aber am langsamsten, verbindet alle Kerne.  
    o Der Cache reduziert Zugriffszeiten auf häufig benötigte Daten und verbessert so die CPU-Leistung.
 
-8. **Fertigungstechniken**  
+10. **Fertigungstechniken**  
    Die Größe der Transistoren in Nanometern (nm) bestimmt die Leistung und Energieeffizienz eines Prozessors. Ich würde Prozessoren mit kleineren Fertigungsgrößen wie 5nm oder 3nm bevorzugen, da sie leistungsstärker und energieeffizienter sind. Intel verwendet derzeit 10nm, während AMD und Apple auf 5nm und kleinere Größen setzen.
 
    **Stichpunkte:**  
@@ -59,7 +61,7 @@
    o Kleinere Fertigungsgrößen (z.B. 5nm, 7nm) bedeuten mehr Leistung und bessere Energieeffizienz.  
    o Intel verwendet derzeit eine 10nm-Fertigung, AMD und Apple sind auf 5nm bzw. 3nm bei ARM-Chips.
 
-9. **Merkmale von Prozessoren**  
+11. **Merkmale von Prozessoren**  
    Bei der Auswahl eines Prozessors würde ich auf die Anzahl der Kerne achten, da mehr Kerne eine bessere Multitasking-Leistung bieten. Eine hohe Taktrate würde ich ebenfalls priorisieren, da sie schnellere Berechnungen ermöglicht. Technologien wie Hyperthreading, die es einem Kern erlauben, zwei Threads gleichzeitig zu verarbeiten, würde ich bei leistungsintensiven Aufgaben einsetzen.
 
    **Stichpunkte:**  
@@ -67,7 +69,7 @@
    o Taktrate (GHz): Höhere Taktraten bedeuten schnellere Berechnungen.  
    o Hyperthreading: Technologie, die es einem physischen Kern erlaubt, zwei Threads gleichzeitig zu verarbeiten.
 
-10. **Leistungsfähigkeit der Prozessoren bewerten**  
+11. **Leistungsfähigkeit der Prozessoren bewerten**  
    Die Leistungsbewertung von Prozessoren basiert auf der Anzahl der Kerne, der Taktrate, den Cache-Größen und der TDP (Thermal Design Power). Ich würde Prozessoren bevorzugen, die eine gute Balance zwischen Leistung und Energieeffizienz bieten, besonders bei hohen Anforderungen an Stromverbrauch und Wärmeentwicklung.
 
    **Stichpunkte:**  
