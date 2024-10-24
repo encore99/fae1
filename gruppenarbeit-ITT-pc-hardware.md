@@ -1,5 +1,3 @@
-Hier sind die überarbeiteten Textpassagen mit den Stichpunkten:
-
 1. **Aktuelle Prozessorgenerationen**  
    Die aktuellsten Prozessorgenerationen, die ich verwenden würde, umfassen die Intel Core 14. Generation (Raptor Lake) und die neuen Intel Xeon Prozessoren für Serveranwendungen. Auf der AMD-Seite würde ich die Ryzen 7000-Serie (Zen 4) sowie die leistungsstarken Threadripper-Prozessoren in Betracht ziehen. Im ARM-Sektor würde ich auf den Apple M4, Qualcomm Snapdragon 8cx Gen 3 und Amazon Graviton für serverbasierte Projekte setzen.
    
